@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poorna Saai - Portfolio</title>
+    <style>
+        body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0;
+    padding: 20px;
+    background-color: #191919;
+   
+}
+.cover{
+    background: #000;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:0;
+    opacity: 50%;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+    filter:blur(10px);
+  }
+    .diabox .agribot{
+    padding-top: 50px;
+    width: 1300px;
+    height:fit-content;
+    background-image: linear-gradient(135deg,#e9f4e8ce,#c9f6b9c8);
+    box-shadow: 10px 10px 10px rgba(0, 255, 85, 0.467);
+    border-radius: 40px;
+    padding-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.diabox .agribot .image{
+    width:400px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.diabox .agribot h1{
+    text-align: center;
+    font-size: 35px;
+    color: #ffffff;
+    background-color: #2a882c;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    width:fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: 200px; */
+    text-align: center;
+}
+.diabox .agribot h2{
+    text-align: center;
+    font-size: 30px;
+    /* font-style: italic; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight:bolder;
+}
+.diabox .agribot h3{
+    padding-left: 75px;
+    padding-right: 50px;
+    font-size: 20px;
+    font-weight: lighter;
+    /* font-family:'Times New Roman', Times, serif; */
+}
+button{
+    color:#ffffff;
+    border: 0.1px #51ba52 solid;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+    background-color:#2a882c;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    
+}
+button:hover{
+    background-color: #408541;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+}
+.boot a{
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+.onee{
+    position:absolute;
+    right: 20px;
+}
+
+@media screen and (max-width: 1550px) and (min-width:1300px){
+    .diabox .agribot{
+        width: 1000px;
+    }
+      
+}
+@media screen and (max-width: 1300px) and (min-width:1000px){
+    .diabox .agribot{
+        width: 800px;
+    }
+      
+}
+@media screen and (max-width: 1000px) and (min-width:800px){
+    .diabox .agribot{
+        width: 600px;
+    }
+.diabox .agribot .image{
+    width:350px;
+}
+.diabox .agribot h1{
+    font-size: 30px;
+}
+.diabox .agribot h2{
+    font-size: 25px;
+}
+.diabox .agribot h3{
+    font-size: 18px;
+}
+button{
+    font-size: 17px;
+}
+}
+
+@media screen and (max-width: 800px) and (min-width:650px){
+    .diabox .agribot{
+        width: 500px;
+    }
+.diabox .agribot .image{
+    width:300px;
+}
+.diabox .agribot h1{
+    font-size: 30px;
+}
+.diabox .agribot h2{
+    font-size: 25px;
+}
+.diabox .agribot h3{
+    font-size: 18px;
+}
+button{
+    font-size: 17px;
+}
+}
+@media screen and (max-width: 650px) and (min-width:500px){
+    .diabox .agribot{
+        width: 400px;
+    }
+.diabox .agribot .image{
+    width:280px;
+}
+.diabox .agribot h1{
+    font-size: 28px;
+}
+.diabox .agribot h2{
+    font-size: 23px;
+    
+}
+.diabox .agribot h3{
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+button{
+    font-size: 15px;
+}
+}
+@media screen and (max-width: 500px) and (min-width:400px){
+    .diabox .agribot{
+        width: 350px;
+    }
+.diabox .agribot .image{
+    width:280px;
+}
+.diabox .agribot h1{
+    font-size: 24px;
+}
+.diabox .agribot h2{
+    font-size: 19px;
+}
+.diabox .agribot h3{
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+button{
+    font-size: 15px;
+}
+}
+@media screen and (max-width: 400px) and (min-width:250px){
+    .diabox .agribot{
+        width: 250px;
+    }
+.diabox .agribot .image{
+    width:200px;
+}
+.diabox .agribot h1{
+    font-size: 24px;
+}
+.diabox .agribot h2{
+    font-size: 19px;
+}
+.diabox .agribot h3{
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+button{
+    font-size: 14px;
+    margin-bottom: 10px;
+    
+}
+.boot{
+    display: flex;
+
+    flex-direction:column;
+}
+}
+
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="/videos/bgvideo.mp4" type="video/mp4">
+      </video>
+
+      <a href="https://poorna-saai.github.io/Portfolio/"><button class="onee">Back</button></a>
+
+      <div class="diabox">
+        <div class="agribot" id="agribot">
+            
+            <img src="/images/smart.jpg" class="image">
+            <h1>Smart Home Automation</h1>
+            <h2>Problem Statement</h2>
+            <h3>Homeowners face challenges in managing and controlling various household devices efficiently, leading to higher energy consumption and inconvenience.</h3>
+            <h2>Abstract</h2>
+            <h3>This Smart Home Automation project integrates IoT technology to create a connected home environment. It allows users to control lighting, temperature, security systems, and appliances remotely through a smartphone app, enhancing convenience, security, and energy efficiency.</h3>
+            <div class="boot">
+                <a href="https://drive.google.com/file/d/1JfHt46fdtEZboKYkdtZl2nTRT5xN4Fab/view?usp=sharing"><button>Watch video</button></a>
+                <a href=""><button>Website</button></a>
+        </div>
+        </div>
+        </div>
+    
+</body>
+</html>
